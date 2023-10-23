@@ -17,7 +17,7 @@
             <div class="col-10 ">
               <div class="invoice-card card-style mb-30">
                 <div class="card-style mb-30 ">
-                  <h6 class="mb-25 fs-4" >Digite o nome da categoria de curso</h6>
+                  <h6 class="mb-25 fs-4" >Digite as informações curso</h6>
                   <form method="post" action="{{route('cadastro-categoria')}}">
                     @csrf
                     <div class="input-style-1 fs-4 ">
